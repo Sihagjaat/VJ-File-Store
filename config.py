@@ -24,7 +24,7 @@ BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 PICS = (environ.get('PICS', 'https://envs.sh/PV1.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5860332990').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "FileStoreCloneRoBot") # without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "Privatefilestorerobot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
